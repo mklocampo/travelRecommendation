@@ -1,0 +1,117 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menuNav {
+    background-color: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    
+}
+.menuNav .left {
+    justify-self: start;
+    margin-left: 10px;
+
+}
+.menuNav .left img
+{
+    width: 30px;
+    height: 30px;  
+}
+.menuNav .left h1
+{
+    display: inline;
+}
+.menuNav .center {
+    justify-self: center;
+
+}
+.menuNav .right {
+    justify-self: end;   
+    margin-right: 10px;
+    width: 40%;
+}
+.menuNav .right input
+{
+    width: 60%;
+}
+.menuNav .right img
+{
+    width: 30px;
+    height: 30px;
+    transform: scaleX(-1);
+}
+.menuNav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: white;
+}
+.menuNav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+  /* 
+  
+
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+  */
