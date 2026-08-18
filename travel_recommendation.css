@@ -27,11 +27,15 @@ body {
 .menuNav-left {
     justify-self: start;
     margin-left: 40px;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
 }
 .menuNav-left img
 {
-    width: 35px;
-    height: 35px;  
+    width: 45px;
+    height: 45px;  
+    border-radius: 25px;
 }
 .menuNav-left h1
 {
@@ -60,19 +64,24 @@ body {
     height: 45px;
     background-color: white;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .menuNav-right input
 {
-    width: 50%;
+    width: 220px;
     height: 30px; 
-    margin: 0px 0px 5px 20px;
+    margin: 0px 0px 0px 20px;
     border: 0; 
+    outline: none;
 }
 .menuNav-right img
 {
     width: 30px;
     height: 30px;
     transform: scaleX(-1);
+    border-radius: 20px;
 }
 
 .menuNav-right button
@@ -180,18 +189,19 @@ body {
 }
 .divOurTeamList p{
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 .divOurTeamList img{
     width: 30px;
     height: 30px;
+    border-radius: 20px;
 }
 
 .divOurTeamList button
 {
     background-color: #15847D;
     color: white;
-    width: 90px;
+    width: 120px;
     height: 30px;
     border-radius: 8px;
 }
@@ -219,14 +229,16 @@ body {
 .contactUsform label{
     color: white;
     font-size: 16px;
+    font-weight: bold;
 }
 .contactUsform input{
     background-color: transparent;
+    color: white;
     border: 1px solid #ffffff;
     outline: none;
     width: 80%;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 8px;   
 }
 .contactUsform input::placeholder {
     color: white; 
@@ -234,6 +246,7 @@ body {
 }
 .contactUsform textarea{
     background-color: transparent;
+    color: white;
     border: 1px solid #ffffff;
     outline: none;
     width: 80%;
