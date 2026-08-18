@@ -5,10 +5,16 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
+.center{
+    text-align: center
+}
+
 body {
     font-family: Helvetica, sans-serif;
     background-color: black;
 }
+
 .menuNav {
     background-color: #0F2D3A;
     color: white;
@@ -18,57 +24,58 @@ body {
     display: flex;
     justify-content: space-between;  
 }
-.menuNav .left {
+.menuNav-left {
     justify-self: start;
     margin-left: 40px;
 }
-.menuNav .left img
+.menuNav-left img
 {
     width: 35px;
     height: 35px;  
 }
-.menuNav .left h1
+.menuNav-left h1
 {
     display: inline;
     font-style: italic;
-
 }
-.menuNav .center {
+.menuNav-center {
     justify-self: center;
 }
-.menuNav .center li {
+.menuNav-center li {
     display: inline;
     padding-right: 10px;
     color: white;
 }
-.menuNav a {
+.menuNav-center a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-.menuNav .right {
+.menuNav-right {
     justify-self: end;   
     margin-right: 40px;
     width: 35%;
+}
+.menuNav-right .menuNav-search {
     height: 45px;
     background-color: white;
     border-radius: 20px;
 }
-.menuNav .right input
+.menuNav-right input
 {
     width: 50%;
     height: 30px; 
     margin: 0px 0px 5px 20px;
     border: 0; 
 }
-.menuNav .right img
+.menuNav-right img
 {
     width: 30px;
     height: 30px;
     transform: scaleX(-1);
 }
 
-button
+.menuNav-right button
 {
     background-color: #15847D;
     color: white;
@@ -105,69 +112,107 @@ button
     width: 30px;
     height: 30px;
 }
-.exploreNav{
+
+.homePage{
     padding-left: 50px;
 }
-.exploreNav h1{
+.homePage h1{
     width: 50%;
     color: white;
     font-size: 42px;
     font-weight: bold;
     padding-bottom: 30px;
 }
-.exploreNav p{
+.homePage p{
     width: 50%;
     color: white; 
     font-size: 16px;
     padding-bottom: 30px;
 }
+.homePage button
+{
+    background-color: #15847D;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+}
 
-.aboutNav{
+
+.aboutUs{
     padding-left: 50px;
     width: 80%;
 }
-.aboutNav h1{
+.aboutUs h1{
     color: white;
     font-size: 42px;
     font-weight: bold;
     padding-bottom: 30px;
 }
-.aboutNav p{
+.aboutUs p{
     color: white;
     font-size: 16px;
     padding-bottom: 30px;
 }
+
 .OurTeam{
     min-height: 300px; 
     display: flex;
     flex-direction: row;
 }
-.OurTeam p{
+.OurTeam h1{
     color: white;
-    font-size: 42px;
-    width: 150px;
+    font-size: 42px;  
 }
-.divOurTeam{
+
+.divOurTeamList{
     display: flex;
     flex-direction: row;   
     justify-content:center; 
 }
-.divOurTeam div{
+.divOurTeamList div{
     padding-left:50px;
 }
-.divOurTeam h1{
+.divOurTeamList h1{
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
-.divOurTeam p{
+.divOurTeamList p{
     color: white;
     font-size: 10px;
 }
-.divOurTeam img{
+.divOurTeamList img{
     width: 30px;
     height: 30px;
 }
+
+.divOurTeamList button
+{
+    background-color: #15847D;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.contactUs{
+    padding-left: 50px;
+    width: 80%;
+}
+.contactUs h1{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.contactUs p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+
 
 
 
