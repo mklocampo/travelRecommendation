@@ -122,5 +122,53 @@ button
     padding-bottom: 30px;
 }
 
+.aboutNav{
+    padding-left: 50px;
+    width: 80%;
+}
+.aboutNav h1{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.aboutNav p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.OurTeam{
+    min-height: 300px; 
+    display: flex;
+    flex-direction: row;
+}
+.OurTeam p{
+    color: white;
+    font-size: 42px;
+    width: 150px;
+}
+.divOurTeam{
+    display: flex;
+    flex-direction: row;   
+    justify-content:center; 
+}
+.divOurTeam div{
+    padding-left:50px;
+}
+.divOurTeam h1{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.divOurTeam p{
+    color: white;
+    font-size: 10px;
+}
+.divOurTeam img{
+    width: 30px;
+    height: 30px;
+}
+
+
 
  
