@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Mike</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <div class="menuNav">
+        <div class="menuNav-left">
+            <div>
+                <img id='imgLogo' src="https://media.istockphoto.com/id/1369076846/es/vector/un-avi%C3%B3n-de-pasajeros-vuela-alrededor-de-la-tierra.jpg?s=612x612&w=0&k=20&c=R-AivogB7sTF6fNKXLxTs_taO4kpDBTMaKdjNDb2bWw="></img>
+            </div>
+            <div>
+                <h1>TravelMike</h1>
+            </div>
+        </div>
+        <div class="menuNav-center">
+            <nav>                    
+                <ul>
+                    <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+                    <li><a href="./travel_about.html" id="contact">About Us </a></li>
+                    <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+                </ul>
+            </nav>           
+        </div>
+        <div class="menuNav-right">
+            <div class="menuNav-search">
+                <div>
+                    <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
+                </div>
+                <div>
+                    <img onclick="setSearchCursor()" src="https://png.pngtree.com/png-vector/20240904/ourlarge/pngtree-magnifying-glass-clipart-search-icon-illustration-3d-rendering-high-resolution-transparent-png-image_13751338.png"></img>
+                </div>
+                <div>
+                    <button id='btnSearch' onclick="searchResults()" >Search</button>
+                    <button id='btnClear' onclick="clearResults()" >Clear</button>
+                </div>            
+            </div>          
+        </div>
+    </div>      
+<div class="container">
+
+    <div class="followUsNav">
+        <ul>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqlzzIDY2g_6ApTnI65qKmI5IF1JC5_OfzB-kkEOIloQ&s=10"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNfE9N5jHm6aHkrh-RfWnV0D5qT_PrdCqAcLs8tygFYw&s=10"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStInYC1ntip265zH8p69fJbRqjfKTO3M7ZUwOt46S7-Q&s=10"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLikYU9iA44EeR6KBYLXIdy0JkPrqSCYNWXPpJ4TlF1g&s=10"></img>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="homePage" class="homePage">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. </p>
+        <button id="btnBookNow" >Book Now</button>
+    </div>
+    <div id="searchResults" class="searchResults" style="display:none" >
+        <div>
+            <h1>Search Results</h1>
+        </div>
+        <div id="divSearchResultList" class="divSearchResultList">
+
+            <!--<div class="divSearchResultItem center">
+                <div class="divResultItemImg">
+                    <img onclick="getContryDateTime()" src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3q9ETF4HpMhsO0pHIOKDr9Kz6TNtob8izrpYObKjWQ&s=10"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://images.entercostarica.com/uploads/pages_265_m_tamarindo_hotels_aa83061c0a.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>-->
+
+        </div>
+    </div> 
+</div>
+<script src="./travel_recommendation.js"></script>
+</body>
+</html>
