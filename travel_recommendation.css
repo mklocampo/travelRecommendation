@@ -3,14 +3,16 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .menuNav {
-    background-color: black;
+    background-color: #0F2D3A;
     color: white;
     height: 70px;
     align-items: center;
 
+    /*margin-top:10px;*/
+    
     display: flex;
     justify-content: space-between;
     /*display: grid;
@@ -19,7 +21,7 @@
 }
 .menuNav .left {
     justify-self: start;
-    margin-left: 10px;
+    margin-left: 40px;
 
 }
 .menuNav .left img
@@ -30,6 +32,8 @@
 .menuNav .left h1
 {
     display: inline;
+    font-style: italic;
+
 }
 .menuNav .center {
     justify-self: center;
@@ -39,10 +43,15 @@
     justify-self: end;   
     margin-right: 10px;
     width: 40%;
+    background-color: white;
+    border-radius: 20px;
 }
 .menuNav .right input
 {
     width: 60%;
+    height: 40px; 
+    margin: 0px 0px 5px 20px;
+    border: 0; 
 }
 .menuNav .right img
 {
@@ -63,7 +72,18 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    background-color: #0F2D3A;
+    background-image: url('https://media.istockphoto.com/id/2178020702/es/foto/paisaje-urbano-de-nueva-york-a%C3%A9reo.jpg?s=612x612&w=0&k=20&c=CvgRp1GkJDVQ1h0ChuPoGI5W7-fnqMLjIaX4kyxje1k=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 2000px;
 }
 
   /* 
