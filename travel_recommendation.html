@@ -30,11 +30,11 @@
                     <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
                 </div>
                 <div>
-                    <img id='imgLens' onclick="SetSearchCursor()" src="https://png.pngtree.com/png-vector/20240904/ourlarge/pngtree-magnifying-glass-clipart-search-icon-illustration-3d-rendering-high-resolution-transparent-png-image_13751338.png"></img>
+                    <img onclick="setSearchCursor()" src="https://png.pngtree.com/png-vector/20240904/ourlarge/pngtree-magnifying-glass-clipart-search-icon-illustration-3d-rendering-high-resolution-transparent-png-image_13751338.png"></img>
                 </div>
                 <div>
-                    <button id='btnSearch' onclick="SearchResults()" >Search</button>
-                    <button id='btnClear' onclick="ClearResults()" >Clear</button>
+                    <button id='btnSearch' onclick="searchResults()" >Search</button>
+                    <button id='btnClear' onclick="clearResults()" >Clear</button>
                 </div>            
             </div>          
         </div>
@@ -74,69 +74,41 @@
         <div>
             <h1>Search Results</h1>
         </div>
-        <div class="divSearchResultList">
-            <!--<div class="row">
+        <div id="divSearchResultList" class="divSearchResultList">
 
+            <!--<div class="divSearchResultItem center">
+                <div class="divResultItemImg">
+                    <img onclick="getContryDateTime()" src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
             </div>
-            <div class="column">
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3q9ETF4HpMhsO0pHIOKDr9Kz6TNtob8izrpYObKjWQ&s=10"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://images.entercostarica.com/uploads/pages_265_m_tamarindo_hotels_aa83061c0a.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
             </div>-->
-            <div class="divSearchResultItem center" center">
-                <div class="divResultItemImg">
-                    <img src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
-                </div>
-                <div>
-                    <h1>Lorem Ipsum</h1>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-            <div class="divSearchResultItem center" center">
-                <div class="divResultItemImg" >
-                    <img src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
-                </div>
-                <div>
-                    <h1>Lorem Ipsum</h1>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-            <div class="divSearchResultItem center" center">
-                <div class="divResultItemImg" >
-                    <img src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
-                </div>
-                <div>
-                    <h1>Lorem Ipsum</h1>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-            <div class="divSearchResultItem center" center">
-                <div class="divResultItemImg">
-                    <img src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
-                </div>
-                <div>
-                    <h1>Lorem Ipsum</h1>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-            <div class="divSearchResultItem center" center">
-                <div class="divResultItemImg">
-                    <img src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
-                </div>
-                <div>
-                    <h1>Lorem Ipsum</h1>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                </div>
-            </div>
-
-
 
         </div>
     </div> 
