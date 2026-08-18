@@ -145,7 +145,7 @@ body {
 }
 .aboutUs h1{
     color: white;
-    font-size: 42px;
+    font-size: 62px;
     font-weight: bold;
     padding-bottom: 30px;
 }
@@ -162,7 +162,7 @@ body {
 }
 .OurTeam h1{
     color: white;
-    font-size: 42px;  
+    font-size: 62px;  
 }
 
 .divOurTeamList{
@@ -202,14 +202,57 @@ body {
 }
 .contactUs h1{
     color: white;
-    font-size: 42px;
+    font-size: 62px;
     font-weight: bold;
     padding-bottom: 30px;
 }
 .contactUs p{
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 30px;
+}
+
+.contactUsform {
+    width: 500px;
+    margin-right:50px;
+}
+.contactUsform label{
+    color: white;
+    font-size: 16px;
+}
+.contactUsform input{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+}
+.contactUsform input::placeholder {
+    color: white; 
+    opacity: 0.7;
+}
+.contactUsform textarea{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    width: 80%;
+    height: 130px;
+    border-radius: 8px;
+}
+.contactUsform textarea::placeholder {
+    color: white; 
+    opacity: 0.7;
+}
+.contactUsform div{
+    padding-bottom:10px;
+}
+.contactUsform button{
+    background-color: #15847D;
+    color: white;
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
 }
 
 
