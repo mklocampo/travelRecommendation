@@ -27,14 +27,14 @@
         <div class="menuNav-right">
             <div class="menuNav-search">
                 <div>
-                    <input type="text" id="destinationInput" placeholder="Enter a destination or Keyword">
+                    <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
                 </div>
                 <div>
-                    <img id='imgLens' src="https://png.pngtree.com/png-vector/20240904/ourlarge/pngtree-magnifying-glass-clipart-search-icon-illustration-3d-rendering-high-resolution-transparent-png-image_13751338.png"></img>
+                    <img id='imgLens' onclick="SetSearchCursor()" src="https://png.pngtree.com/png-vector/20240904/ourlarge/pngtree-magnifying-glass-clipart-search-icon-illustration-3d-rendering-high-resolution-transparent-png-image_13751338.png"></img>
                 </div>
                 <div>
-                    <button id='btnSearch'>Search</button>
-                    <button id='btnClear'>Clear</button>
+                    <button id='btnSearch' onclick="SearchResults()" >Search</button>
+                    <button id='btnClear' onclick="ClearResults()" >Clear</button>
                 </div>            
             </div>          
         </div>
@@ -65,12 +65,12 @@
             </li>
         </ul>
     </div>
-    <!--<div class="homePage">
+    <div id="homePage" class="homePage">
         <h1>EXPLORE DREAM DESTINATION</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. </p>
         <button id="btnBookNow" >Book Now</button>
-    </div>  -->
-    <div class="searchResults">
+    </div>
+    <div id="searchResults" class="searchResults" style="display:none" >
         <div>
             <h1>Search Results</h1>
         </div>
@@ -140,42 +140,7 @@
 
         </div>
     </div> 
-
-<!--<div class="analysisForm">
-<h1>Healthcare Data Analysis</h1>
-<div>
-<label for="name">Name:</label>
-<input type="text" id="name">
 </div>
-<div>
-<label>Gender:</label>
-<label for="male">Male</label>
-<input type="radio" name="gender" id="male" value="Male">
-<label for="female">Female</label>
-<input type="radio" name="gender" id="female" value="Female">
-</div>
-<div>
-<label for="age">Age:</label>
-<input type="number" id="age">
-</div>
-<div>
-<label for="condition">Condition:</label>
-<select id="condition">
-  <option value="">Select condition</option>
-  <option value="Diabetes">Diabetes</option>
-  <option value="Thyroid">Thyroid</option>
-  <option value="High Blood Pressure">High Blood Pressure</option>
-</select>
-</div>
-<button id="addPatient">Add Patient</button>
-<h2>Analysis Report</h2>
-<div id="report"></div>
-</div>
-<div class="searchCondition">
-    <div id="result"></div>
-</div>
--->
-</div>
-<script src="./health_analysis.js"></script>
+<script src="./travel_recommendation.js"></script>
 </body>
 </html>
