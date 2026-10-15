@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Mike</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <div class="menuNav">
+        <div class="menuNav-left">
+            <div>
+                <img id='imgLogo' src="./Images/logo.png"></img>
+            </div>
+            <div>
+                <h1>TravelMike</h1>
+            </div>
+        </div>
+        <div class="menuNav-center">
+            <nav>                    
+                <ul>
+                    <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+                    <li><a href="./travel_about.html" id="contact">About Us </a></li>
+                    <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+                </ul>
+            </nav>           
+        </div>
+        <div class="menuNav-right">
+            <div class="menuNav-search">
+                <div>
+                    <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
+                </div>
+                <div>
+                    <img onclick="setSearchCursor()" src="./Images/lupa.png"></img>
+                </div>
+                <div>
+                    <button id='btnSearch' onclick="searchResults()" >Search</button>
+                    <button id='btnClear' onclick="clearResults()" >Clear</button>
+                </div>            
+            </div>          
+        </div>
+    </div>      
+<div class="container">
+
+    <div class="followUsNav">
+        <ul>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="./Images/socialmedia/twitter.png"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="./Images/socialmedia/facebook.png"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="./Images/socialmedia/instagram.png"></img>
+                </a>
+            </li>
+            <li>
+                <a href="./travel_recommendation.html" id="home"> 
+                    <img src="./Images/socialmedia/youtube.png"></img>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="homePage" class="homePage">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. </p>
+        <button id="btnBookNow" >Book Now</button>
+    </div>
+    <div id="searchResults" class="searchResults" style="display:none" >
+        <div>
+            <h1>Search Results</h1>
+        </div>
+        <div id="divSearchResultList" class="divSearchResultList">
+
+            <!--<div class="divSearchResultItem center">
+                <div class="divResultItemImg">
+                    <img onclick="getContryDateTime()" src="https://gotripzi.com/_astro/bora-bora-pf-hero.DiC_aBMv.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3q9ETF4HpMhsO0pHIOKDr9Kz6TNtob8izrpYObKjWQ&s=10"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>
+            <div class="divSearchResultItem center">
+                <div class="divResultItemImg" >
+                    <img onclick="getContryDateTime()" src="https://images.entercostarica.com/uploads/pages_265_m_tamarindo_hotels_aa83061c0a.webp"></img>
+                </div>
+                <div>
+                    <h1>Lorem Ipsum</h1>
+                </div>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div>-->
+
+        </div>
+    </div> 
+</div>
+<div class="popup" id="popup">
+        <div id="mssageTimeZone" class="messagePopup">
+            
+        </div>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+<script src="./travel_recommendation.js"></script>
+</body>
+</html>

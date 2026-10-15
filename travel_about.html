@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Mike</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <div class="menuNav">
+        <div class="menuNav-left">
+            <div>
+                <img id='imgLogo' src="./Images/logo.png"></img>
+            </div>
+            <div>
+                <h1>TravelMike</h1>
+            </div>
+        </div>
+        <div class="menuNav-center">
+            <nav>
+                <ul>
+                    <li><a href="./index.html" id="home">Home </a></li>
+                    <li><a href="./travel_about.html" id="contact">About Us </a></li>
+                    <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menuNav-right">
+            <div class="menuNav-right" style="visibility: hidden;">
+                <div class="menuNav-right-search">
+                    <div class="menuNav-right-input">
+                        <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
+                    </div>
+                    <div class="menuNav-right-img">
+                        <img onclick="setSearchCursor()" src="./Images/lupa.png"></img>
+                    </div>
+                    <div class="menuNav-right-btn">
+                        <button id='btnSearch' onclick="searchResults()">Search</button>
+                        <button id='btnClear' onclick="clearResults()">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="followUsNav">
+            <ul>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/twitter.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/facebook.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/instagram.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/youtube.png"></img>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="aboutUs">
+            <h1>ABOUT US</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the
+                librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to
+                make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these
+                sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word
+                including versions of Lorem Ipsum.</p>
+            <div class="OurTeam">
+                <div>
+                    <h1>Our Team</h1>
+                </div>
+                <div class="divOurTeamList">
+                    <div class="center">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjKC7U-5bYoX4m2MbRBz4UnGET3NfBoS1MNwoxklq9w&s=10"></img>
+                        <h1>John Doe</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <label>CEO</label>
+                    </div>
+                    <div class="center">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjKC7U-5bYoX4m2MbRBz4UnGET3NfBoS1MNwoxklq9w&s=10"></img>
+                        <h1>Celina Tomas</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <label>Team Lead</label>
+                    </div>
+                    <div class="center">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjKC7U-5bYoX4m2MbRBz4UnGET3NfBoS1MNwoxklq9w&s=10"></img>
+                        <h1>Mike Tyson</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <label>Delivery Head</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./health_analysis.js"></script>
+</body>
+
+</html>

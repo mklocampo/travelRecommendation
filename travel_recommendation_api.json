@@ -1,0 +1,109 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "./Images/countries/Sydney.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
+            "zone": "Sydney",
+            "timeZone": "Australia/Sydney"  
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "./Images/countries/Melbourne.jpg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods.",
+            "zone": "Melbourne",
+            "timeZone": "Australia/Melbourne"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "./Images/countries/Tokyo.jpg",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
+            "zone": "Tokyo",
+            "timeZone": "Asia/Tokyo"
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "./Images/countries/Kyoto.jpg",
+            "description": "Known for its historic temples, gardens, and traditional tea houses.",
+            "zone": "Kyoto",
+            "timeZone": "Asia/Tokyo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "./Images/countries/Rio de Janeiro.jpg",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
+            "zone": "Rio de Janeiro",
+            "timeZone": "America/Sao_Paulo"
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "./Images/countries/Sao Paulo.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife.",
+            "zone": "São Paulo",
+            "timeZone": "America/Sao_Paulo"
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "./Images/temples/Angkor.jpg",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world.",
+        "zone": "Angkor Wat",
+        "timeZone": "Asia/Jakarta"
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "./Images/temples/Taj Mahal.jpg",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture.",
+        "zone": "Taj Mahal",
+        "timeZone": "Asia/Kolkata"
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "./Images/beaches/Bora Bora.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
+        "zone": "Bora Bora",
+        "timeZone": "Pacific/Honolulu"
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "./Images/beaches/Copacabana.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
+        "zone": "Copacabana Beach",
+        "timeZone": "America/Sao_Paulo"
+      },
+      {
+        "id": 3,
+        "name": "Tamarindo Beach, Costa Rica",
+        "imageUrl": "./Images/beaches/Tamarindo.jpg",
+        "description": "A famous beach in Guanacaste, Costa Rica, with a vibrant atmosphere and scenic views.",
+        "zone": "Tamarindo Beach",
+        "timeZone": "America/Costa_Rica"
+      }
+    ]
+}
+  

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Mike</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <div class="menuNav">
+        <div class="menuNav-left">
+            <div>
+                <img id='imgLogo' src="./Images/logo.png"></img>
+            </div>
+            <div>
+                <h1>TravelMike</h1>
+            </div>
+        </div>
+        <div class="menuNav-center">
+            <nav>
+                <ul>
+                    <li><a href="./index.html" id="home">Home </a></li>
+                    <li><a href="./travel_about.html" id="contact">About Us </a></li>
+                    <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menuNav-right" style="visibility: hidden;">
+            <div class="menuNav-right-search">
+                <div class="menuNav-right-input">
+                    <input type="text" id="inputSearchItems" placeholder="Enter a destination or Keyword">
+                </div>
+                <div class="menuNav-right-img">
+                    <img onclick="setSearchCursor()" src="./Images/lupa.png"></img>
+                </div>
+                <div class="menuNav-right-btn">
+                    <button id='btnSearch' onclick="searchResults()">Search</button>
+                    <button id='btnClear' onclick="clearResults()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="followUsNav">
+            <ul>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/twitter.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/facebook.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/instagram.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="./travel_recommendation.html" id="home">
+                        <img src="./Images/socialmedia/youtube.png"></img>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contactUs">
+            <div class="contactUs-tittle">
+                <h1>CONTACT US</h1>
+                <p>Get in touch </p>
+            </div>
+            <div>
+                <form class="contactUsform">
+                    <div>
+                        <div>
+                            <label for="name">Name</label>
+                        </div>
+                        <div>
+                            <input type="text" id="name" name="name" placeHolder="Enter your name">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="email">Email</label>
+                        </div>
+                        <div>
+                            <input type="text" id="email" name="email" placeHolder="Enter your email">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="message">Message</label>
+                        </div>
+                        <div>
+                            <textarea id="message" name="message" rows="20" placeHolder="Enter your mesage"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./health_analysis.js"></script>
+</body>
+
+</html>
